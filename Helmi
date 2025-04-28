@@ -1,0 +1,70 @@
+beranda.dot.html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f2f2f2;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #575757;
+        }
+        main {
+            padding: 20px;
+            background: white;
+        }
+        footer {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Selamat Datang di Beranda Kami</h1>
+</header>
+
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Tentang</a>
+    <a href="#">Layanan</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<main>
+    <h2>Halo!</h2>
+    <p>Ini adalah halaman beranda sederhana menggunakan HTML dan CSS dasar.</p>
+</main>
+
+<footer>
+    &copy; 2025 Website Sederhana
+</footer>
+
+</body>
+</html>
